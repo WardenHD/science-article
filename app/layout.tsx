@@ -5,7 +5,7 @@ import { Help, HomeRounded } from '@mui/icons-material'
 import Link from 'next/link'
 import favicon from './favicon.ico';
 
-export const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Science Article',
