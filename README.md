@@ -4,7 +4,9 @@ Science article project based on Next.js
 
 ## How to setup and run
 
-Open project folder in terminal, then run `npm run dev`
+1. Open project folder in terminal, then run `npm run dev`
+
+2. Enter [http://localhost:3000](http://localhost:3000) in the browser
 
 ### Requirements
 
