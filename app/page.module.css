@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px;
+}
+
+.main h2 {
+  text-align: center;
+}
+
+.text_image_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 87vw;
+}
+
+.text_image_box p {
+  padding-left: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .text_image_box {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.copyright {
+  color: #333333;
+}
+
+.main p {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}

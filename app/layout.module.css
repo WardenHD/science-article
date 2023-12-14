@@ -1,0 +1,32 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.body nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+    align-items: center;
+}
+
+.body nav h1 {
+    font-weight: 900;
+}
+
+.body nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.body nav a:hover {
+    color: #000;
+}
+
+.body nav a svg {
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
