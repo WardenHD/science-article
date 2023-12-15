@@ -9,8 +9,8 @@ export default function Home() {
       <div className={classes.text_image_box}>
         <Image 
         src="https://www.vrogue.co/top-featureds-imp.news/wp-content/uploads/2021/07/2022-F1-Racer-1.jpg" 
-        width={448}
-        height={252}
+        width={368}
+        height={207}
         alt="f1-car"/>
         <p>
           The cars have been evolutionised from square shapes to round.
@@ -42,7 +42,7 @@ export default function Home() {
         </p>
         <Image 
         src="https://f1tcdn.net/articles/aero/images/aero-sim.jpg"
-        width={560}
+        width={360}
         height={207}
         alt='f1-aerodynamics'/>
       </div>
